@@ -14,6 +14,7 @@
 		966658F2228E84B900F3F245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966658F0228E84B900F3F245 /* LaunchScreen.storyboard */; };
 		966658FA228E8FD900F3F245 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966658F9228E8FD900F3F245 /* WeatherVC.swift */; };
 		966658FC228E8FEB00F3F245 /* CityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966658FB228E8FEB00F3F245 /* CityVC.swift */; };
+		96728F3E229FCB81007B9641 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96728F3D229FCB81007B9641 /* WeatherDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		966658F3228E84B900F3F245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966658F9228E8FD900F3F245 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		966658FB228E8FEB00F3F245 /* CityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityVC.swift; sourceTree = "<group>"; };
+		96728F3D229FCB81007B9641 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		CF95166FE932480D43D02619 /* Pods_Climate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Climate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			children = (
 				966658E7228E84B300F3F245 /* AppDelegate.swift */,
 				966658F9228E8FD900F3F245 /* WeatherVC.swift */,
+				96728F3D229FCB81007B9641 /* WeatherDataModel.swift */,
 				966658FB228E8FEB00F3F245 /* CityVC.swift */,
 				966658EB228E84B300F3F245 /* Main.storyboard */,
 				966658EE228E84B900F3F245 /* Assets.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96728F3E229FCB81007B9641 /* WeatherDataModel.swift in Sources */,
 				966658FC228E8FEB00F3F245 /* CityVC.swift in Sources */,
 				966658E8228E84B300F3F245 /* AppDelegate.swift in Sources */,
 				966658FA228E8FD900F3F245 /* WeatherVC.swift in Sources */,
